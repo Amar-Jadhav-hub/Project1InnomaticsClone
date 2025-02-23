@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innomatics Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.jpeg" alt="Innomatics Logo">
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#scholars">IT Scholars Program</a></li>
+                    <li><a href="#internship">Internship</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#contact" class="cta">Pay Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+
+    <!-- <section class="hero"> -->
+        <!-- <div class="container">
+            < <h1>We Are Now In <span>Bengaluru</span> & <span>Pune</span></h1> -->
+            <!-- <p>Transforming careers with industry-leading training programs</p> -->
+            <!-- <a href="#courses" class="btn">Explore Courses</a> -->
+        <!-- </div> --> 
+    <section>
+        <!-- <div class="hero">
+            <div class="hero-slider">
+                <img src="hero2.jpeg" alt="Hero Image 1">
+                <img src="hero3.jpeg" alt="Hero Image 2">
+                <img src="hero4.jpeg" alt="Hero Image 3">
+                <img src="hero image.jpeg" alt="Hero">
+            </div>
+            <div class="hero-text">
+                <h1>We Transform <span>Careers</span></h1>
+                <a href="#" class="btn">Get Started</a>
+            </div>
+        </div> -->
+        <div class="hero">
+            <div class="hero-slider">
+                <img src="hero image.jpeg" alt="Hero image">
+                <img src="hero2.jpeg" class="active" alt="Hero Image 1">
+                <img src="hero3.jpeg" alt="Hero Image 2">
+                <img src="hero4.jpeg" alt="Hero Image 3">
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+        
+        
+    </section>
+    
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Trending Courses of 2025</h2>
+            <div class="course-grid">
+                <div class="course-item">
+                    <img src="https://www.innomatics.in/wp-content/uploads/2023/01/No-1-best-data-science-course-training-institute-in-hyderabad.jpg" alt="Data Science">
+                    <h3>NASSCOM Certified Data Science</h3>
+                    <p>Learn data science with real-world projects and expert mentors.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="course-item">
+                    <img src="https://www.innomatics.in/wp-content/uploads/2025/01/FULL-STACK-WEB.jpg" alt="Full Stack Development">
+                    <h3>Full Stack Development</h3>
+                    <p>Master web development with hands-on training.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="course-item">
+                    <img src="https://www.innomatics.in/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-17-at-11.49.18.jpeg" alt="Generative AI">
+                    <h3>Generative AI</h3>
+                    <p>Explore AI-driven applications and future trends.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Students Say</h2>
+            <div class="testimonial-item">
+                <img src="https://www.innomatics.in/wp-content/uploads/2024/11/Aaesha_Azeemuddin-400x516.jpg" alt="">
+                <p>"Innomatics has transformed my career! The mentors and projects were invaluable."</p>
+                <h4>Aisha Azimuddin</h4>
+            </div>
+            <div class="testimonial-item">
+                <img src="https://www.innomatics.in/wp-content/uploads/2024/11/Cherukupalli_Indhu.jpg" alt="">
+                <p>"Great learning experience with hands-on training and excellent placement support."</p>
+                <h4>Cherukuppali Indhu</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview Section -->
+    <section id="blog" class="blog-preview">
+        <div class="container">
+            <h2>Latest News & Blogs</h2>
+            <div class="blog-grid">
+                <div class="blog-item">
+                    <h3>OOPS Concepts in Python and Java</h3>
+                    <p>Understanding object-oriented programming in Python.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="blog-item">
+                    <h3>Real-World Applications of Data Science</h3>
+                    <p>How data science is transforming industries today.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="blog-item">
+                    <h3>Why You Should Join Innomatics?</h3>
+                    <p>Discover the benefits of learning with Innomatics.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- <div class="video-container">
+            <div class="video">
+                <iframe src="https://youtu.be/zyvb4mLpmwo" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe src="https://youtu.be/OKUFrW40xyI" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div> -->
+        
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Innomatics Research Labs. All Rights Reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
